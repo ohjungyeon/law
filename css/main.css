@@ -280,10 +280,16 @@ body.overlay-active {
   margin-right: 20px;
   font-size: 18px;
 }
-.kakanaver div {
+.kakanaver {
   display: flex;
 }
-.kakanaver div {
+
+.kakanaver h4 {
+  font-weight: normal;
+}
+.nvaer {
+  cursor: pointer;
+  padding: 10px;
   justify-content: space-around;
   color: white;
   margin-top: 30px;
@@ -291,14 +297,25 @@ body.overlay-active {
   background-color: #003366;
   width: 100px;
   height: 100px;
-  gap: 20px;
+  margin-right: 20px;
 }
-.kakanaver h4 {
-  font-weight: normal;
+.nvaer h4 a {
+  color: white;
+  margin-right: 20px;
 }
-
-.kakanaver div {
+.kakao h4 a {
+  color: white;
+}
+.kakao {
+  cursor: pointer;
   padding: 10px;
+  justify-content: space-around;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  background-color: #003366;
+  width: 100px;
+  height: 100px;
 }
 .pone {
   margin-left: 40px;
