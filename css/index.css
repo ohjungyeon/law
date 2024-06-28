@@ -3658,11 +3658,12 @@ sdsafdasd*/
     color: white;
     position: absolute;
     top: 55%;
-    left: 50%;
+   justify-content: center;
   }
   .review2 ul {flex-wrap: wrap;
     padding-left: 0px;
     display: flex;
+    justify-content: center;
   }
   .review2 h3 {
     margin-bottom: 30px;
@@ -3710,7 +3711,7 @@ margin: 10px auto;
   /* footer */
   #footer {margin-top: -50px;
     height: 25vh;
-    width: 130%;
+    width: 150%;
 
     display: flex;
     justify-content: space-between;
