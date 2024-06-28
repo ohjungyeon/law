@@ -3413,7 +3413,7 @@ sdsafdasd*/
     transition: 1s;
     transform: translateY(0px);
    
-    font-size: 18px;
+    font-size: 16px;
   }
   .text3 h1 {opacity: 0;
     transform: translateY(20px);
@@ -3559,7 +3559,7 @@ sdsafdasd*/
   
   .bo h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
   }
   .bo p {
     margin-bottom: 0px;
@@ -3612,7 +3612,7 @@ sdsafdasd*/
   .legalform h3,
   .waytocome h3 {
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     position: absolute;
     top: 28%;
     left: 50%;
@@ -3658,7 +3658,7 @@ sdsafdasd*/
     color: white;
     position: absolute;
     top: 55%;
-    left: 0%;
+    left: 50%;
   }
   .review2 ul {flex-wrap: wrap;
     padding-left: 0px;
