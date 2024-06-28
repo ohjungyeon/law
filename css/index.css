@@ -3654,11 +3654,12 @@ sdsafdasd*/
     filter: none;
   }
   .review2 {text-align: center;
-    width: 100%;
+    width: 70%;
     color: white;
     position: absolute;
     top: 55%;
-   justify-content: center;
+    left:0;
+ justify-content: center;
   }
   .review2 ul {flex-wrap: wrap;
     padding-left: 0px;
@@ -3697,7 +3698,7 @@ sdsafdasd*/
   }
   .ri2 {
     color: white;
-margin: 10px auto;
+    margin: 10px auto;
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -3725,7 +3726,7 @@ margin: 10px auto;
   }
   .ring1 ul li {
     margin-top: 20px;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-bottom: 20px;
   }
   .font {
