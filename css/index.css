@@ -332,16 +332,16 @@ overflow-y: hidden;
   transition: width 0.3s ease;
 }
 .navi2 li.on {
-  width: 300px;
+  width: 200px;
   background-color: #003366;
 }
 
-.navi2 a {
+/* .navi2 a {
   display: block;
   width: 100%;
   height: 100%;
   text-decoration: none;
-}
+} */
 
 .bodd {
   margin: 100px auto;
