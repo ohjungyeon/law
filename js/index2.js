@@ -48,19 +48,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
 $(document).ready(function () {
   let total = $(".slides li").length;
   let i = 0;
   let wid = 300;
   let timer;
+  // 슬라이드 리스트의 첫 번째 요소를 리스트 끝에 추가
+  $(".slides li:first-child").clone().appendTo(".slides");
+  // 슬라이드 리스트의 마지막 요소를 리스트 앞에 추가
+  $(".slides li:last-child").clone().prependTo(".slides");
 
-  $(".slides li:nth-child(" + (total - 1) + ")")
-    .clone()
-    .prependTo(".slides");
+  total += 2; // 추가된 두 개의 슬라이드 요소를 포함하도록 전체 개수를 증가시킴
 
-  total += 1;
-
-  $(".slides").css("left", -wid);
+  $(".slides").css("left", -wid); // 첫 번째 슬라이드로 이동
 
   function Navi() {
     $(".navi2 li").removeClass("on");
@@ -73,7 +75,8 @@ $(document).ready(function () {
       $(".slides")
         .stop()
         .animate({ left: -wid * (i + 1) }, 500, function () {
-          if (i == total - 1) {
+          if (i >= total - 2) {
+            // 마지막 슬라이드 이후에 처음으로 돌아가야 함
             i = 0;
             $(".slides").css("left", -wid);
           }
@@ -81,6 +84,33 @@ $(document).ready(function () {
         });
     }, 2000);
   }
+  // $(".slides li:nth-child(" + (total - 1) + ")")
+  //   .clone()
+  //   .prependTo(".slides");
+
+  // total += 1;
+
+  // $(".slides").css("left", -wid);
+
+  // function Navi() {
+  //   $(".navi2 li").removeClass("on");
+  //   $(".navi2 li").eq(i).addClass("on");
+  // }
+
+  // function start() {
+  //   timer = setInterval(function () {
+  //     i++;
+  //     $(".slides")
+  //       .stop()
+  //       .animate({ left: -wid * (i + 1) }, 500, function () {
+  //         if (i == total - 1) {
+  //           i = 0;
+  //           $(".slides").css("left", -wid);
+  //         }
+  //         Navi();
+  //       });
+  //   }, 2000);
+  // }
 
   $(".navi2 li").on("click", function (event) {
     event.preventDefault();
