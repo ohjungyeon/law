@@ -49,14 +49,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
 $(document).ready(function () {
   let total = $(".slides li").length;
   let i = 0;
   let wid = 300;
   let timer;
   // 슬라이드 리스트의 첫 번째 요소를 리스트 끝에 추가
-  $(".slides li:first-child").clone().appendTo(".slides");
+  $(".slides li").clone().appendTo(".slides");
   // 슬라이드 리스트의 마지막 요소를 리스트 앞에 추가
   $(".slides li:last-child").clone().prependTo(".slides");
 

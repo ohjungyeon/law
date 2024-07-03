@@ -332,7 +332,7 @@ overflow-y: hidden;
   transition: width 0.3s ease;
 }
 .navi2 li.on {
-  width: 200px;
+  width: 250px;
   background-color: #003366;
 }
 
