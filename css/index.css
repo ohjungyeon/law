@@ -325,14 +325,14 @@ overflow-y: hidden;
 }
 
 .navi2 li { 
-  width: 200px;
+  width: 11%;
   height: 5px;
   background-color: rgb(171, 165, 165);
 
   transition: width 0.3s ease;
 }
 .navi2 li.on {
-  width: 250px;
+  width: 300px;
   background-color: #003366;
 }
 
