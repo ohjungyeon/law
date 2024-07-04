@@ -2002,11 +2002,11 @@ sdsafdasd*/
       font-weight: bold;
       font-size: 22px;
     }
-    .menu2 { display: none;
+    .menu2 { 
       margin-left: -200px;
     }
     
-    .menu2 li {display: none;
+    .menu2 li {
       font-size: 18px;
       padding: 20px;
     }
@@ -2181,14 +2181,14 @@ sdsafdasd*/
     }
     
     .navi2 li { 
-      width: 15%;
+      width: 10%;
       height: 5px;
       background-color: rgb(171, 165, 165);
     
       transition: width 0.3s ease;
     }
     .navi2 li.on {
-      width: 100px;
+      width: 33.3%;
       background-color: #003366;
     }
     
